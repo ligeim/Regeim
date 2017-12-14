@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    background: linear-gradient(60deg, #ffd61fef, #fae570);
+
+    font-family: 'Nanum Pen Script', serif;
+}
+
+/* Deco Box - Main */
+
+#MiddleBox {
+    background-color: white;
+    margin-top: 17vh;
+    height: 40vh;
+}
+
+#TitleBox {
+    color: rgb(20, 17, 17);
+
+    padding-top: 7.5vh;
+
+    text-align: center;
+}
+
+#title {
+    font-size: 15vh;
+    margin: 0;
+
+}
+
+#titleDescription {
+    font-size: 3vh;
+}
+
+/* Menu Box */
+
+#Menu {
+    padding-top: 2vh;
+    padding-right: 0%;
+    padding-left: 80%;
+}
+
+#Menu ul {
+    list-style: none;
+    align-self: flex-end;
+}
+
+#Menu li {
+    display: inline-block;
+
+    text-align: center;
+}
+
+#Menu li:hover {
+    background-color: white;
+}
+
+#Menu a {
+    text-decoration: none;
+    font-size: 2vw;
+    color: white;
+
+    padding:20px;
+}
+
+#Menu a:hover{
+    color: black;
+}
