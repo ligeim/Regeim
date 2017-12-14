@@ -1,0 +1,12 @@
+@keyframes MenuHover {
+    from {
+    }
+
+    to {
+        background-color: white;
+    }
+}
+
+@keyframes MenuHoverNot {
+
+}
