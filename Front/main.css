@@ -64,7 +64,7 @@ body {
 #Menu li:hover {
     animation-name: MenuHover;
     animation-duration: 0.5s;
-    
+
     background-color: white;
 }
 
