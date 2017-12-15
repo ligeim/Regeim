@@ -1,7 +1,9 @@
+/* background: linear-gradient(60deg, #1ff8ffef,10%, #04acdf); */
+
 body {
     margin:  0 0 0 0;
     overflow-y: hidden;
-    background: linear-gradient(60deg, #1ff8ffef,10%, #04acdf);
+    background: linear-gradient(60deg, #c2fff9ef,10%, #83ffeeea);
     height: 100vh;
     font-family: 'Nanum Pen Script', serif;
 }
@@ -14,7 +16,7 @@ body {
     width: 100%;
     height: 30vh;
 
-    box-shadow: 0px 0px 5px 5px #05a7d4;
+    box-shadow: 0px 0px 5px 5px #78e2ff;
 }
 
 #TitleBox {
@@ -25,7 +27,7 @@ body {
 
 #title {
     font-size: 8vmax;
-    color: #05a7d4;
+    color: #55c5e4;
     margin: 0;
 
 }
@@ -53,21 +55,39 @@ body {
     display: inline-block;
 
     text-align: center;
+
+    border-radius: 2vmax;
+
+    padding: 0.5vh 0;
 }
 
 #Menu li:hover {
     animation-name: MenuHover;
-    animation-duration: 2;
+    animation-duration: 0.5s;
+    
+    background-color: white;
 }
 
-#Menu a {
+#Menu li:not(hover) {
+    animation-name: MenuHoverNot;
+    animation-duration: 0.1s;
+}
+
+#Menu li a {
     text-decoration: none;
     font-size: 2vmax;
+    padding:  0.3vh 1.5vw;
     color: white;
-
-    padding:20px;
 }
 
-#Menu a:hover{
-    color: black;
+#Menu li a:hover{
+    animation-name: aHover;
+    animation-duration: 0.5s;
+
+    color: #55c5e4;
+}
+
+#Menu li a:not(hover) {
+    animation-name: aHoverNot;
+    animation-duration: 0.1s;
 }
