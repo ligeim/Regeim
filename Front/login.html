@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>login</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css')}}">
+    <link rel="stylesheet" href="./login.css">
   </head>
   <body>
     <p id="title">Regeim</p>
@@ -19,9 +19,18 @@
   			</tr>
   		</table>
   		<p> </p>
-  		<input style="font-size:3vh;" type="submit" value="로그인"> <input style="font-size:3vh;" type="button" value="회원가입">
-  		</center>
+      <nav id="Menu">
+          <ul>
+              <li>
+                  <a href="./main_login.html">login</a>
+              </li>
+              <li>
+                  <a href="./sign_up.html">sign up</a>
+              </li>
+          </ul>
+      </nav>
   	</form>
     </div>
+  </center>
   </body>
 </html>
