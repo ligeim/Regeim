@@ -10,7 +10,7 @@
 #RoomBox {
     background: rgba(255,255,255,0.9);
     position: absolute; top: 69%; left: 50%; transform: translate(-50%, -50%);
-    width: 65%;
+    width: 65vw;
     height: 50vh;
 
     box-shadow: 0px 0px 5px 5px #78e2ff;
@@ -19,17 +19,22 @@
 #RoomBox .Room {
   height: 20vh;
   width: 20vw;
-  background-color: rgba(112, 120, 214,0.5);
+  background-color: rgba(112, 120, 214, 0.7);
 
-  margin-left: 2vw;
+  margin-left: 3vw;
 
   color: white;
-
-  font-size: 3vmax;
 
   text-align: center;
 }
 
+#RoomBox .Room:hover {
+  background-color: rgba(112, 120, 214,1.0);
+}
+
 #RoomBox .Room .RoomName {
-  margin-top: 10vh;
+
+  height: inherit;
+
+  font-size: 3vmax;
 }
