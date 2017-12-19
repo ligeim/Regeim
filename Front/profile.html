@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Regeim : Main Page</title>
+
+  <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/nanumpenscript.css">
+  <link rel="stylesheet" href="./profile.css">
+
+  <meta charset="utf8" />
+</head>
+
+<body>
+  <div id="WrapperBox">
+    <div id="TitleBox">
+      <p id="title">프로필</p>
+      <p id="titleDescription">당신은 어떤 사람인가요?</p>
+    </div>
+    <hr>
+    <div id="ProfileBox">
+      <img src="https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/25348299_1923684397949232_8002417226355884794_n.jpg?oh=dbbb7ab8f2e3c1db98adef1d08eaf721&oe=5ACB92FE" alt="There is no Image" />
+      <div id="NameBox">
+        <p id="Nickname">강근</p>
+        <p id="profileDescription">저는 이런 사람입니다</p>
+      </div>
+      <div id="profileInformation">
+        <span onclick="document.getElementById('EditBox').value='EastSea@lapio.kr'">email</span>
+        <span onclick="document.getElementById('EditBox').value='**********'">password</span>
+
+        <form action="." method="" id="Edit">
+          <input type="text" style="width=30vw;" id="EditBox"/>
+          <button type="button" id="EditButton" name="Edit" onclick="if(document.getElementById('EditBox').value != ''){ alert('수정 내용이 저장 되었습니다!!'); location.href='./main_login.html'}">저장</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

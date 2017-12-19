@@ -1,0 +1,89 @@
+#Box {
+  margin-top: 2vh;
+  height: 10vh;
+
+  border-top: rgb(105, 226, 247) 0.2vmax solid;
+  border-bottom: rgb(105, 226, 247) 0.2vmax solid;
+
+  background-color: rgb(122, 227, 246);
+}
+
+#Menu1 {
+  margin-top: 0.5vh;
+  margin-right: 3vw;
+
+  height: 6vh;
+}
+
+#Menu2 {
+  margin-top: 0vh;
+  margin-right: 3vw;
+  float: right;
+}
+
+#Menu1 ul {
+  list-style: none;
+  display: flex;
+  align-self: flex-end;
+}
+
+#Menu1, #Menu2 li {
+  display: inline-block;
+  text-align: center;
+  border-radius: 2vmax;
+  padding: 0.5vh 0;
+
+  color: black;
+}
+
+#Menu1 li {
+  border-radius: 2vmax;
+}
+
+#Menu1 li:hover {
+  animation-name: MenuHover;
+  animation-duration: 0.5s;
+  background-color: white;
+}
+
+#Menu2 li:hover {
+  animation-name: MenuHover;
+  animation-duration: 0.5s;
+  background-color: white;
+}
+
+#Menu1, #Menu2 li:not(hover) {
+  animation-name: MenuHoverNot;
+  animation-duration: 0.1s;
+}
+
+#Menu1 li a {
+  text-decoration: none;
+  font-size: 2vmax;
+  padding: 0.3vh 1.5vw;
+  color: white;
+}
+
+#Menu2 li a {
+  text-decoration: none;
+  font-size: 2vmax;
+  padding: 0.3vh 1.5vw;
+  color: white;
+}
+
+#Menu1 li a:hover {
+  animation-name: aHover;
+  animation-duration: 0.5s;
+  color: #55c5e4;
+}
+
+#Menu2 li a:hover {
+  animation-name: aHover;
+  animation-duration: 0.5s;
+  color: #55c5e4;
+}
+
+#Menu1, #Menu2 li a:not(hover) {
+  animation-name: aHoverNot;
+  animation-duration: 0.1s;
+}

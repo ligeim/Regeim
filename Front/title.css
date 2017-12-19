@@ -1,0 +1,21 @@
+@keyframes titleNeon {
+  from {
+    text-shadow: 0 0 2px #fff,  0 0 70px #20bcde, 0 0 100px #46cbf0, 0 0 170px #0096be;
+  }
+  to {
+    text-shadow: 0 0 2px #fff,  0 0 70px #20bcde, 0 0 100px #46cbf0;
+  }
+}
+
+#title {
+    font-size: 8vmax;
+    color: #fff;
+    animation-name: titleNeon;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+    margin: 0;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    text-align: center;
+}

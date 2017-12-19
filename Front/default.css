@@ -1,0 +1,7 @@
+body {
+  margin: 0 0 0 0;
+  overflow-y: hidden;
+  background: linear-gradient(60deg, #c2fff9ef, 10%, #83ffeeea);
+  height: 100vh;
+  font-family: 'Nanum Pen Script', serif;
+}

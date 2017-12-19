@@ -6,22 +6,22 @@ body {
     font-family: 'Nanum Pen Script', serif;
 }
 
-
-
 #MiddleBox {
     background: rgba(255,255,255,0.9);
-    position: absolute; top: 55%; left: 50%; transform: translate(-50%, -50%);
-    padding-top: 20vh;
-    width: 50%;
-    height: 50vh;
+    position: absolute; top: 60%; left: 50%; transform: translate(-50%, -50%);
 
-    box-shadow: 0px 0px 5px 5px #78e2ff;
+    width: 35vw;
+    height: 30vh;
+
+    box-shadow: 0px 0px 2px 2px #78e2ff;
 }
 
 #title {
     font-size: 8vmax;
-    color: #55c5e4;
+    color: #fff;
+    text-shadow: 0 0 2px #fff, 0 0 100px #66d6f5, 0 0 170px #55c5e4;
     margin: 0;
+    margin-top: 20vh;
     text-align: center;
 }
 
@@ -29,18 +29,31 @@ input{
   font-family: 'Nanum Pen Script', serif;
 }
 
+table {
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 18vw;
+  margin-top: 10vh;
+  border-width: 0;
+
+  width: 10vw;
+  height: 18vh;
+}
+
 #id_input, #pw_input{
   padding-top: 0.5vh;
   padding-bottom: 0.5vh;
-  padding-left: 1vw;
-  font-size: 5vh;
+
+  font-size: 1.5vmax;
+
   width: 30vw;
+  height: 3vmax;
 }
 
 #Menu {
-    margin-top: 2.5vh;
-    margin-right: 3vw;
-    position: absolute; top: 60%; left: 30%;
+    margin-top: 2vh;
+
+    position: absolute; top: 60%; left: 20%;
 }
 
 #Menu ul {
@@ -51,7 +64,6 @@ input{
 
 #Menu li {
     display: inline-block;
-
     text-align: center;
 
     border-radius: 2vmax;
